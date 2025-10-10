@@ -1,0 +1,13 @@
+#btn{
+    background-color: rgba(0, 0, 0, 0.29);
+    color:white;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    border-width: 5px;
+    border-radius: 3px;
+    border-style: solid;
+}
+body{
+    background-color: black;
+}

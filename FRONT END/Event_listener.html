@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="new">HELLO</p>
+    <button id="btn" onclick="update()">CLICK TO CHANGE</button>
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y" height="150" width="300">
+    <script>
+        function update(){
+            document.getElementById("new").innerHTML="WELCOME TO JS";
+            document.getElementById("new").style.color="red";
+            document.getElementById("new").style.backgroundColor="white";
+            document.getElementById("new").style.textAlign="center";
+            document.getElementById("new").style.fontSize="40px";
+            document.getElementById("new").style.fontFamily="cursive";
+            alert("YOU HAVE CLICKED THE BUTTON");
+        }
+
+    </script>
+</body>
+</html>
