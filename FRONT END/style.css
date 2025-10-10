@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    margin: 20%;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(4,200px);
+}
+.box{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: bold;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.242);
+    transition:  0.8s ease-in-out, color 1.1s ease-in-out;
+}
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+#box2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+#box4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#box5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#box6{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
