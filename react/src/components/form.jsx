@@ -10,7 +10,6 @@ export default function SimpleForm() {
     <div className="min-h-screen flex items-center justify-center bg-white">
       <form onSubmit={handleSubmit} className="p-6 space-y-4">
         <h2 className="text-2xl font-bold text-black">Simple Form</h2>
-
         <div>
           <label className="text-black">Name: </label>
           <input
