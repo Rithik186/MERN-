@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose")
-const userSchema = mongoose.Schema({
+const Song = mongoose.Schema({
     song: {
         type: String,
     },
