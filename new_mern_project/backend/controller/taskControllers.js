@@ -4,7 +4,7 @@ const User = require("../models/User");
 exports.Task = async (req,res) => {
     try{
   const {title,description,status}=req.body;
-  const extitle = await Users.findOne({ title });
+  const extitle = await Task.findOne({ title });
     if (extitle) {
       return res.status(400).send("title already exisiting");
     }
