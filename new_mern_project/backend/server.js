@@ -10,6 +10,9 @@ mongoose
     .then(()=> console.log("Connected Successfully"))
     .catch((err)=> console.log(err));
 
+app.use('/auth',require('./routes/authRoutes'))
+app.use('/task',require('./routes/taskRouter'))
+
 app.listen(4000,()=>{
     console.log("Server Running at port 4000");
 });
